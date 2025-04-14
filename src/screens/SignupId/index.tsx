@@ -18,8 +18,8 @@ const SignUpIdScreen = () => {
         await signUpManager.signup({
             email,
             phone: phoneNumber,
-            firstName,
-            lastName
+            "ulp-first-name": firstName,
+            "ulp-last-name": lastName
         });
     }
 
